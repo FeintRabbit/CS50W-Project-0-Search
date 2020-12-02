@@ -1,0 +1,140 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  padding: 0 0.5rem;
+}
+
+button {
+  height: 36px;
+  background-image: linear-gradient(top, #f8f9fa, #f8f9fa);
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-size: 14px;
+  line-height: 27px;
+  margin: 11px 4px;
+  padding: 0 16px;
+}
+
+nav,
+footer {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+footer {
+  top: unset;
+  bottom: 0;
+  background-color: #f2f2f2;
+  border-top: 1px solid #dadce0;
+  color: #70757a;
+}
+
+.search-main {
+  height: 100vh;
+  width: 80%;
+  margin: 0 auto;
+  display: grid;
+  align-content: center;
+  font-size: 14px;
+}
+.search-main .search-article {
+  text-align: center;
+  width: 100%;
+}
+.search-main img {
+  padding-bottom: 2rem;
+}
+.search-main .search-form {
+  padding-bottom: 2rem;
+  margin: 0 auto;
+  max-width: 484px;
+}
+.search-main .fake-input {
+  width: 100%;
+  height: 44px;
+  border-radius: 24px;
+  border: 1px solid #dfe1e5;
+}
+.search-main input {
+  width: 90%;
+  height: 99%;
+  border: none;
+}
+.search-main input:focus {
+  outline: none;
+}
+
+.advanced-main {
+  margin-top: 3rem;
+  display: grid;
+  align-content: center;
+  font-size: 14px;
+}
+.advanced-main h2 {
+  margin-top: 1rem;
+  padding: 2rem;
+  color: #d93025;
+  border-bottom: 1px solid #dadce0;
+}
+.advanced-main article {
+  width: 90%;
+}
+.advanced-main article h4 {
+  padding: 2rem;
+  font-weight: 300;
+  font-size: 1rem;
+}
+.advanced-main article form {
+  padding-left: 2rem;
+}
+.advanced-main article .form-group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.advanced-main article .form-group input {
+  height: 29px;
+  width: 70%;
+  min-width: 380px;
+  border: 1px solid #d9d9d9;
+}
+.advanced-main .advanced-search-button {
+  background: #4d90fe;
+  color: white;
+  background-image: linear-gradient(top, #4d90fe, #4787ed);
+  font-size: 0.8rem;
+  float: right;
+}
+
+.nav-advanced {
+  background: #f1f1f1;
+}
+.nav-advanced img {
+  height: 30px;
+  padding-left: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */
